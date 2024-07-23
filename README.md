@@ -17,13 +17,13 @@ The `UniqueToken` contract is a simple ERC-like token contract written in Solidi
 
 ### **`mintTokens`**
 - **Parameters**:
-  - `address recipient`: The address to receive the newly minted tokens.
+  - `address _address`: The address to receive the newly minted tokens.
   - `uint256 amount`: The number of tokens to mint.
 - **Description**: Increases the total token supply and adds the specified amount of tokens to the balance of the given recipient address.
 
 ### **`burnTokens`**
 - **Parameters**:
-  - `address account`: The address from which tokens will be burned.
+  - `address _address`: The address from which tokens will be burned.
   - `uint256 amount`: The number of tokens to burn.
 - **Description**: Checks if the specified account has a sufficient balance to burn the specified amount of tokens. If true, it decreases the total token supply and reduces the balance of the specified account.
 
